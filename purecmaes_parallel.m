@@ -5,7 +5,7 @@ function [xmin] = purecmaes_parallel(Fitnessfct,xmean,varMin,varMax)
 % xmean = rand(N,1),初始决策变量
 % varMin,决策变量的下界
 % varMax,决策变量的上界
-% -------------------- Initialization --------------------------------
+% -------------------- 初始化 --------------------------------
 % 用户定义参数
 
 N=length(xmean);          % 问题维度
